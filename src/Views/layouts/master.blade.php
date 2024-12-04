@@ -19,7 +19,7 @@
     <div class="master">
         <div class="center-container">
             <div class="logo">
-                <img src="{{ asset('seed/logo/logo.svg') }}" alt="logo" class="mb-4">
+                <img src="{{ asset('installer/img/logo.png') }}" alt="logo" class="mb-4">
             </div>
             <div class="box">
                 <div class="header">
