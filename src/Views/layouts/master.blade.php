@@ -9,7 +9,6 @@
     <link rel="icon" type="image/png" href="{{ asset('installer/img/favicon/favicon-32x32.png') }}" sizes="32x32" />
     <link rel="icon" type="image/png" href="{{ asset('installer/img/favicon/favicon-96x96.png') }}"
         sizes="96x96" />
-    <link rel="stylesheet" href="{{ asset('frontend') }}/assets/vendor/bootstrap/bootstrap.min.css">
 
     <link href="{{ asset('installer/css/style.min.css') }}" rel="stylesheet" />
     @yield('style')
@@ -19,7 +18,9 @@
 <body>
     <div class="master">
         <div class="center-container">
-            <img src="{{ asset('seed/logo/logo.svg') }}" alt="logo">
+            <div class="logo">
+                <img src="{{ asset('seed/logo/logo.svg') }}" alt="logo" class="mb-4">
+            </div>
             <div class="box">
                 <div class="header">
                     <h1 class="header__title">@yield('title')</h1>

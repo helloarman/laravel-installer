@@ -3,26 +3,6 @@
 @section('title', trans('installer_messages.environment.title'))
 @section('style')
     <link href="{{ asset('installer/helloarman-helper/helper.css') }}" rel="stylesheet"/>
-    <style>
-        .form-control{
-            height: 14px;
-            width: 100%;
-            padding: 15px 15px !important;
-            border-radius: 7px;
-            font-size: 14px
-        }
-        .has-error{
-            color: red;
-        }
-        .has-error input{
-            color: black;
-            border:1px solid red;
-        }
-
-        .help-block{
-            font-size: 14px
-        }
-    </style>
 @endsection
 @section('container')
     <form method="post" action="{{ route('LaravelInstaller::environmentSave') }}" id="env-form">

@@ -2157,3 +2157,21 @@ a:hover {
 .btn-danger{
     background-color: red;
 }
+.form-control{
+    height: 14px;
+    width: 100%;
+    padding: 15px 15px !important;
+    border-radius: 7px;
+    font-size: 14px
+}
+.has-error{
+    color: red;
+}
+.has-error input{
+    color: black;
+    border:1px solid red;
+}
+
+.help-block{
+    font-size: 14px
+}
