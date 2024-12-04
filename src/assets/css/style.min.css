@@ -1818,9 +1818,8 @@ label {
 input[type=email], input[type=password], input[type=text], textarea {
     display: block;
     max-width: 100%;
-    padding: .4375em;
-    font-size: 12px;
-    margin-bottom: 1.18125em;
+    padding: 1.8em !important;
+    font-size: 14px !important;
 }
 @media (min-width:600px) {
     input[type=email], input[type=password], input[type=text], textarea {
@@ -1888,7 +1887,6 @@ a:hover {
     color: #175c82;
 }
 .master {
-    background-image: url(../img/background.png);
     background-size: cover;
     background-position: top;
     min-height: 100vh;
@@ -1903,15 +1901,20 @@ a:hover {
     align-items: center;
 }
 .box {
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 0 10px 10px;
     overflow: hidden;
     box-sizing: border-box;
     box-shadow: 0 10px 10px rgba(0, 0, 0, .19), 0 6px 3px rgba(0, 0, 0, .23);
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px
+}
 .header {
-    background-color: #357295;
+    background-color: #d51a62;
     padding: 30px 30px 40px;
-    border-radius: 3px 3px 0 0;
+    border-radius: 10px 10px 0 0;
     text-align: center;
 }
 .header__step {
@@ -2004,7 +2007,7 @@ a:hover {
     font-family: Ionicons;
 }
 .step__item.active .step__icon, .step__item.active~.step__divider, .step__item.active~.step__item .step__icon {
-    background-color: #34a0db;
+    background-color: #a90443;
 }
 .main {
     margin-top: -20px;
@@ -2020,7 +2023,7 @@ a:hover {
 }
 .button {
     display: inline-block;
-    background-color: #34a0db;
+    background-color: #a90443;
     border-radius: 2px;
     padding: 7px 20px;
     color: #fff;
@@ -2033,7 +2036,7 @@ a:hover {
 .button:hover {
     color: #fff;
     box-shadow: 0 10px 10px rgba(0, 0, 0, .19), 0 6px 3px rgba(0, 0, 0, .23);
-    background-color: #2490cb;
+    background-color: #d71e64;
 }
 .button--light {
     padding: 3px 16px;
