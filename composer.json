@@ -1,0 +1,23 @@
+{
+  "name": "helloarman/laravel-installer",
+  "description": "Laravel web installer",
+  "license": "MIT",
+  "type": "library",
+
+  "authors": [
+    {
+      "name": "Ajay Kumar Choudhary",
+      "email": "contact.armanrahman@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Helloarman\\LaravelInstaller\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
