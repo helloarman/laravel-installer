@@ -2162,8 +2162,12 @@ a:hover {
     width: 100%;
     padding: 15px 15px !important;
     border-radius: 7px;
-    font-size: 14px
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bfbfbf !important;
 }
+
 .has-error{
     color: red;
 }
