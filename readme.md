@@ -19,13 +19,13 @@ You need to have `.env` to the root
 1)  If you are running **Laravel 5 or above** :
 
 ```
-composer require helloarman/laravel-installer:1.9.3
+composer require helloarman/laravel-installer:1.9.5
 ```
 OR add this line to `composer.json`
 
 ```
 "require": {
-    "helloarman/laravel-installer": "1.9.3"
+    "helloarman/laravel-installer": "1.9.5"
 }
 ```
 2)  If you are running **Laravel 11 or above** :
