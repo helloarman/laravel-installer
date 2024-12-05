@@ -10,7 +10,7 @@
             <label class="control-label">Hostname</label>
 
             <div class="col-sm-12">
-                <input type="text" name="hostname" class="form-control" >
+                <input type="text" name="hostname" class="form-control" value="127.0.0.1">
             </div>
         </div>
         <div class="form-group">

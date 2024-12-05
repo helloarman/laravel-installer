@@ -3,8 +3,10 @@
 namespace Helloarman\LaravelInstaller\Providers;
 
 use Illuminate\Routing\Router;
+use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider;
 use Helloarman\LaravelInstaller\Middleware\canInstall;
+use Helloarman\LaravelInstaller\Middleware\InstallerGlobalMiddleware;
 
 class LaravelInstallerServiceProvider extends ServiceProvider
 {
@@ -35,6 +37,9 @@ class LaravelInstallerServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
+        $kernel = $this->app->make(Kernel::class);
+        $kernel->pushMiddleware(InstallerGlobalMiddleware::class);
+
         $router->middlewareGroup('install', [canInstall::class]);
     }
 
